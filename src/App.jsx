@@ -115,10 +115,7 @@ export default function App() {
                 variation="quiet"
                 required
               />
-              <TextField
-                name="description"
-                alignSelf={"end"}
-                accept="image/png, image/jpeg"
+              <TextField name="description" placeholder="Note Description" label="Note Description" labelHidden variation="quiet" /> <View name="image" as="input" type="file" alignSelf={"end"} accept="image/png, image/jpeg"
               />
 
               <Button type="submit" variation="primary">
